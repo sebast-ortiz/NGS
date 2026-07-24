@@ -6,4 +6,4 @@ Assemble clean Ilumina reads de novo to reconstruct contiguous sequences
 ## EXTRACTION
 Searches the assembly for homologous sequences and extracts target loci using reference sequences
 ### Captus extraction
-    captus extract -a captus_assembly -n References.faa -o extractions  --threads 8 --predict
+    captus extract -a captus_assembly -n References.faa -o extractions  --threads 8 --concurrent 2 --ignore_depth
