@@ -22,4 +22,4 @@ To delete Ilumina adapters
 ### Run BBDuk on the dedup paired-end sequences
         bbduk.sh in=R1.dedup.fastq.gz in2=R2.dedup.fastq.gz out=R1.clean.fastq.gz out2=R2.clean.fastq.gz ref=adapters.fa
 
-## Finally, run once again Fastqc & Multiqc to verify the cleaning on the sequences.
+### Finally, run once again Fastqc & Multiqc to verify the cleaning on the sequences.
